@@ -2,7 +2,7 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 
 dependencies {
-	
+	compile files(System.properties.'java.home' + '/lib/jfxrt.jar')
 }
 
 repositories {
